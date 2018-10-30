@@ -1,0 +1,9 @@
+Membership Inference Attacks主要想法是训练一个attack model来猜membership。做法具体如下：
+1.假设被攻击的target model T的training data是(x,y),其中y是label，x是输入，输出是probabilistic vector(每个label给一个预测的概率向量)p。
+2.用(x,y)训练一个attack model A,A的training data是(p,y,"in" or "out")，其中label "in"表示p是来自训练集中的某个(x,y)经过T的输出，label "out"表示不是。A的输入是(p,y),输出是"in"(在训练数据集中)，或"out"(不在训练数据集中)。
+3.训练好的A要用来猜任意一组(x,y)的membership，就把(x,y)输入T得到p，再把(p,y)输入看结果。
+
+根据f的限制条件不同，同态方案实际上分为了两类：
+1.Fully Homomorphic Encryption(FHE)：这意味着HE方案支持任意给定的f函数，只要这个f函数可以通过算法描述，用于计算机实现。显然，FHE方案是一个非常棒的方案，但是计算开销极大，暂时还无法在实际中应用。
+2.Somewhat Homomorphic Encryption(SWHE)：这意味着HE方案只支持一些特定的函数。SWHE方案稍弱，但也意味着开销会变得较小，容易实现，现在已经在实际中使用。
+假设一个简单的线性回归问题：f(x)=w*x+b，对x进行加密得E(x),有f(E(x))=w*E(x)+b=E(f(x))。
