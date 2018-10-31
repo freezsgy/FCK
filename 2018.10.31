@@ -1,0 +1,5 @@
+1.今天上午上了英语课，下午上了机器学习课，主要讲了支持向量机和贝叶斯分类器。
+2.接昨天的论文内容。训练一个attack model来猜membership显然必须取得training dataset(x,y)才能执行，所以不能直
+接运用。这里提出的方法是用T训练一个shadow model T'，意思就是T'与T的架构要一样，然后随机生成data x，把x输入T得
+到的label预测当作y，再用这些(x,y)去训练T'。架构相同会让T与T'预测的概率分布类似，所以针对T'的attack model也可以
+对T做membership attack。
