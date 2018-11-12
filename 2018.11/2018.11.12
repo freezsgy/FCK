@@ -14,3 +14,5 @@ SGX（SoftwareGuard Extensions）。顾名思义，它是对英特尔体系（IA
 Chiron有两点贡献：
 1.Chiron允许数据持有者使用机器学习即服务，而不向服务提供者公开他们的数据。
 2.不要求提供者公开他们的模型、配置参数和训练算法。
+
+试着安装了tensorflow，运行了一下公共数据集MNIST和Cifar。
