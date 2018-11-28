@@ -1,0 +1,8 @@
+1.今天上午上了英语课，下午上了机器学习课程，开组会，汇报了关于电子拍卖的论文。
+2.看了新论文：
+Liu, Yingqi; Ma, Shiqing; Aafer, Yousra; Lee, Wen-Chuan; Zhai, Juan; Wang, Weihang; and Zhang, Xiangyu, 
+"Trojaning Attack on Neural Networks" (2017).Department of Computer Science Technical Reports.Paper 1781. 
+这篇论文讲的是针对神经网络的特洛伊攻击，攻击过程是：首先将神经元网络反向生成一个通用的木马触发器，然后利用外部数据集
+对模型进行重新训练，将恶意行为注入到模型。恶意行为仅由带有木马触发器的输入激活。本论文中使用五个不同的应用程序来演示我们的
+攻击的效果，并对影响攻击的可能因素进行深入分析。结果表明，攻击是高效的。木马行为可以被成功触发（接近100%），而不会影响其对
+正常输入数据的测试精度。而且攻击复杂的神经元网络模型只需要很少的时间。最后，论文还讨论了防范此类攻击的可能方法。
