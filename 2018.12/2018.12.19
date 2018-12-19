@@ -1,0 +1,8 @@
+1.今天上午上英语听力课。下午上了机器学习课程听其他人汇报自己看的论文，今天晚上复习了英语。
+2.找了一篇论文"CryptoNets: ApplyingNeuralNetworkstoEncryptedData withHighThroughputandAccuracy"
+论文相关信息是：Proceedings of the 33rd International Conference on Machine Learning, New York, NY, USA, 2016. JMLR: W&CP volume 48.
+Copyright 2016 by the author(s).
+这篇论文主要是使用全同态加密的方法加密数据，保护机器学习服务云平台上的敏感数据的隐私和安全（包括训练模型的数据和用户的预测数据）。在MNIST数据集演示了
+加密神经网络。加密网络的准确率达到99%，每小时可以做出5900左右的预测。加密网络预测的准确性和效率表现较好。通过实验证明加密神经网络可以实现高吞吐量、
+准确和隐私的数据预测。
+3.明天准备仔细看一下这篇论文。
