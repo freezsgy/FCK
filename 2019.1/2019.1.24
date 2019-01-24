@@ -1,0 +1,4 @@
+1.今天上午和下午看师兄师姐们的报告，觉得做事应该认真，写东西应该逻辑清醒，按照标准模板来写论文，晚上找了一下论文，找了两篇关于异常检测的论文:
+"A Deep Learning Approach to Network Intrusion Detection"
+"Enhanced Network Anomaly Detection Based on Deep Neural Networks"
+看看生成对抗网络能不能用到异常检测中，通过对抗训练提高检测的准确率。
