@@ -1,0 +1,5 @@
+今天看了论文POSTER: A PU Learning based System for Potential Malicious URL Detection
+这篇论文开发了一个基于PU-Learning的潜在恶意URL检测系统。与基于监督学习的方法相比，我们的方法只需要少量恶意URL以及未标注URL，
+而这正好适合我们遇到的实际情况。该系统主要包括三个部分：首先，特征提取将原始URL转化为特征向量；然后，利用two-stage strategy、
+cost-sensitive strategy来训练分类模型；最后，新输入的URL将被首先转化为特征向量，再进行机器学习，输出的分数表明了该URL为恶意网址的概率。
+感觉跟今天上午讨论的论文思想差不多，准备明天描述PU-Learning、two-stage strategy、cost-sensitive strategy的参考文献。
