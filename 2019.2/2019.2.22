@@ -1,0 +1,2 @@
+今天看了Malicious URL Detection using Machine Learning: A Survey 
+这篇论文主要将应用于URL检测特征表示和机器学习算法进行了分类和整理，未来的方向包括更有效的特征提取和表征学习(例如，通过深度学习方法)，明天打算细看一下。
