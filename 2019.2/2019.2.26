@@ -1,0 +1,12 @@
+恶意URL检测服务系统：一些研究人员提出了构建端到端恶意URL检测系统的体系结构，并将其部署到实际的实用程序中。
+设计原则：
+（1）	高精度:这通常是恶意URL检测最重要的目标之一。
+（2）	快速检测:检测速度是实际恶意URL检测系统的另一个重要关注点，特别是对于在线系统或网络安全应用程序。
+（3）	高可伸缩性:考虑到不断增加的大量URL，一个真实世界中的恶意URL检测系统必须能够扩展，以便使用数百万甚至数十亿的训练数据来训练模型。
+（4）	强大的适应:一个真实的恶意网址检测系统必须处理各种实际的复杂性,包括对抗模式概念漂移等恶意URL可能随时间变化的分布,甚至改变以对抗性的方式绕过检测系统,缺失的值(例如,功能不可用或过于昂贵的计算所需的时间成本),越来越多的新功能,等等。
+（5）	良好的灵活性:考虑到恶意URL检测的高度复杂性，需要设计一个具有机器学习的真实世界恶意URL检测系统，具有良好的灵活性，便于改进和扩展。
+设计框架：
+（1）	设计了一个名为Monarch（K. Thomas, C. Grier, J. Ma, V. Paxson, and D. Song, “Design and evaluation of a real-time url spam ﬁltering service,” in Security and Privacy (SP), 2011 IEEE Symposium on. IEEE, 2011, pp. 447–462.）的框架，并提出了将恶意URL检测作为服务提供的想法。Monarch将实时抓取web服务，并判断URL是恶意的还是良性的。观察到Twitter和垃圾邮件之间恶意URL分发的差异，并相应地为两者构建了不同的模型。
+（2）	Prophiler（C. Whittaker, B. Ryner, and M. Nazif, “Large-scale automatic classiﬁcation of phishing pages.” in NDSS, vol. 10, 2010.）是另一个系统，它建议URL分类在两个阶段的过程中执行。第一步是通过分析轻量级URL特性，快速过滤出分类器对其有较高置信度的URL。对于低置信度的预测，可以执行更密集的基于内容的分析。
+（3）	waring – bird（S. Lee and J. Kim, “Warningbird: Detecting suspicious urls in twitter stream.” in NDSS, 2012.）与Monarch相似，其主要目的是检测Twitter流中的可疑url 16个，不同之处在于它使用启发式获取新特性，使用的分类器是一个使用LIBLINEAR（R.-E. Fan, K.-W. Chang, C.-J. Hsieh, X.-R. Wang, and C.-J. Lin, “Liblinear: A library for large linear classiﬁcation,” The Journal of Machine Learning Research, vol. 9, pp. 1871–1874, 2008.）的SVM模型，并没有对分布式猜想进行训练。
+（4）	BINSPECT（B. Eshete, A. Villaﬁorita, and K. Weldemariam, “Binspect: Holistic analysis and detection of malicious web pages,” in Security and Privacy in Communication Networks. Springer, 2013, pp. 149–166.）是另一种利用集成分类的系统，它的最终预测是基于置信加权多数投票。
