@@ -1,1 +1,13 @@
+"Detecting Malicious URLs via a Keyword-based Convolutional Gated-recurrent-unit Neural Network." IEEE Access (2019).
+卷积窗口大小对分类的影响：
+选择了不同的卷积窗口进行对比实验。对于URL数据，从自然语言处理的角度来看，每个单词的映射长度不应超过5。经过统计，选择卷积窗口的长度小于5。
+如图7所示，我们可以看到，当只使用固定长度的卷积窗口时，当卷积窗口的大小小于5时，卷积窗口的长度越大，模型的性能越好。为了进一步完善评价指标，
+本文将结合卷积窗口。由于组合卷积窗口提取不同层次的特征，其性能通常优于固定窗口长度。
 
+特征对分类的影响：
+本文描述了基于关键字的特征级特征提取方法，并参考了[4]Malicious url detection with feature extraction based on machine learning中描述的21维特征。
+因为我们的实验数据集大多来自于[4]中的数据集，所以我们使用了[4]中提取的特征。这里的特性包括长度特性、数量特性、类型特性、危害类别和其他特性。
+当我们使用人工指定的21维特征作为分类基础时，性能结果明显低于使用字符级输入和使用神经网络进行特征提取。此外，当使用字符级数据嵌入进行特征提取时，
+模型的一致性明显早于人类特征提取，学习曲线更加平滑。
+
+这篇论文是基于[4]Malicious url detection with feature extraction based on machine learning，明天打算看这篇论文。
