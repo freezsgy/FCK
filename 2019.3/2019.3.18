@@ -1,0 +1,3 @@
+今天搜到了一篇IEEE ACCESS上的论文“Performance Comparison of Support Vector Machine, Random Forest, and Extreme Learning Machine for Intrusion Detection”
+论文里就用了支持向量机，随机森林和一个Extreme Learning Machine（极限学习机）在KDD99和它的变体NSL_KDD数据集做了分类比较，感觉没有创新，我在想着能不能
+把CNN，RNN,gcForest在这个数据集上做一遍分类，不知道行不行。
