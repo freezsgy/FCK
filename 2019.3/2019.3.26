@@ -1,0 +1,3 @@
+今天看了一下昨天提到的论文"CryptoNets: ApplyingNeuralNetworkstoEncryptedData withHighThroughputandAccuracy"(ICML,2016),这篇论文介绍了的加密神经
+网络，使用的同态加密方法，论文中也提到了使用随机森林模型的加密的方法。我觉得深度森林也可以使用加密数据作为训练数据，而且不用同态加密，只需要加密数据，不需
+要进行加密数据之间的数值运算，减少计算开销，保护隐私的训练数据，而且性能可以和DNNs持平。继续看深度森林的论文和代码。
