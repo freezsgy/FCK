@@ -1,0 +1,4 @@
+今日汇报：
+今天继续看了论文"CryptoNets: Applying Neural Networks to Encrypted Data with High Throughput and Accuracy"和gcforest论文，下午和老师讨论了一下，
+觉得gcforest可以和数据加密放在一起，而且不需要同态加密，就是普通的加密就可以，但是数据应该是那种离散型的，连续性的数据在分支决策的时候就不好进行判断，还
+得看看资料论文，看看有没有什么好方法。
