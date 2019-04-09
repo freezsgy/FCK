@@ -1,0 +1,4 @@
+今天看了一下"Multi-Layered Gradient Boosting Decision Trees"（Advances in Neural Information Processing Systems）这篇论文。
+这篇论文主要讲了多层分布式表示被认为是深度神经网络的关键组成部分，尤其是在计算机视觉等认知任务中。虽然梯度增强决策树(GBDTs)等不可微模型仍然是离散或表
+数据建模的主流方法，但它们很难与这种表示学习能力相结合。在本论文中提出了多层GBDT森林(mGBDTs)，明确强调探索通过叠加多层回归GBDTs作为构建块来学习分层
+分布式表示的能力。该模型可以由目标跨层传播的一种变体联合训练，不需要推导反向传播或可微性。实验验证了该模型在性能和表示学习能力方面的有效性。
