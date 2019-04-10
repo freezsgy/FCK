@@ -1,0 +1,3 @@
+今天看了一下论文"Deep Learning with Differential privacy"(CCS '16 Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security)
+主要讲了差分隐私在深度学习中的应用，看看能不能借鉴一下，主要就是保护隐私数据，用于深度学习，然后衡量软件复杂性、培训效率和模型质量方面的成本是可控的。
+没看完，打算明天继续看。
