@@ -1,0 +1,9 @@
+今天看了论文"Less Is More: A Comprehensive Framework for the Number of Components of Ensemble Classifiers"(1 区)
+IEEE Transactions on neural networks and learning systems, 2019.
+在本文中，作者使用几何框架研究了集成尺寸的影响，提出了一个框架，以加强对多样性的理解，并解释了为什么多样性有助于预测的准确性。
+实验结果表明，类标签的数量对总体规模有重要影响。
+主要贡献：
+1.对确定总体组件分类器数量的现有方法进行了简要的全面审查。
+2.提供集成系统的空间建模，并使用线性最小二乘(LSQ)解[21]优化集成分类器组件的权重，适用于在线集成和批量集成。
+3.在文献中首次利用几何框架，先验地确定一个集合的分量分类器的数量。
+4.从理论的角度，并在文献中首次解释了集成中各分量分类器的多样性对预测性能的影响。
