@@ -1,0 +1,8 @@
+今日汇报：
+今天刚看王老师给的论文"Catch the Black Sheep: Unified Framework for Shilling Attack Detection Based on Fraudulent Action Propagation"(IJCAI 2015)
+这篇论文说的是以前shilling攻击检测只检测由特定攻击策略产生的shilling攻击，无法应对层出不穷的新攻击，本文提出了针对shilling攻击检测普遍适用的框架，不论是
+哪种攻击策略产生的shilling攻击。
+本文的贡献：
+1.我们提出在不考虑具体攻击策略的情况下，通过传播用户对目标物品的提升或降级程度，在统一框架下对个性化推荐的审查系统中进行先令攻击检测。
+2.提出了一种有效的传播算法，并证明了该算法的收敛性。
+3.通过对真实亚马逊电影评论数据集的大量实验，我们验证了我们提出的统一框架的有效性。
