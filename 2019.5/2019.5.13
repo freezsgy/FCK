@@ -1,0 +1,5 @@
+今日汇报：
+"Catch the Black Sheep: Unified Framework for Shilling Attack DetectionBased on Fraudulent Action Propagation"(IJCAI 2015)
+这篇论文提出了一种基于用户对产品二部图的垃圾邮件概率传播的统一框架，减轻了研究者和实践者对抗不断涌现的新攻击策略的繁重工作。进一步研究了基于传播
+的框架的正反馈和可靠性问题，并构造了精心设计的边缘权值，使二分图中用户对产品关系的估计更加准确。在真实的Amazon电影评论数据集上的大量实验结果验证
+了的框架的有效性，以及利用本文框架产生的垃圾邮件概率特性来提高其他先令攻击检测方法的可能性。
