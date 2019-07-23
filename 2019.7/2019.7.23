@@ -1,0 +1,5 @@
+今日汇报：
+今天主要看了"Hybrid speech recognition with Deep Bidirectional LSTM"(2013 IEEE workshop on automatic speech recognition and understanding)
+深度双向LSTM (DBLSTM)递归神经网络在TIMIT语音数据库上的性能是目前研究的热点。然而，这项工作的结果依赖于递归神经网络特定的目标函数，这很难与现有的大型
+词汇语音识别系统集成。我看的这篇iot论文用到了这个论文的timit数据集，而且这篇论文讲的是双向lstm。
+画了函数拟合图，正在思考画整个语音隐私保护的框架图。
