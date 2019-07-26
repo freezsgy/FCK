@@ -1,0 +1,5 @@
+今日汇报：
+今天去中科大听了云计算的报告，晚上回来继续改我的函数拟合图，想尽量拟合的好。
+今天看了论文"Towards end-to-end speech recognition with recurrent neural networks"(International conference on machine learning. 2014.)
+本文提出了一种语音识别系统，它可以直接用文本来记录语音数据，不需要中间的语音再现。该系统是基于深度双向LSTM递归神经网络结构和连接主义时间分类目标函数
+相结合的。引入了对目标函数的一种修改，它训练网络使任意转录损失函数的期望最小化。这允许直接优化单词错误率，即使在没有词典或语言模型的情况下也是如此。
