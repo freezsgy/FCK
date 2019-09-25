@@ -1,0 +1,5 @@
+今日汇报：
+今天继续改论文，浏览了一篇2019年的论文"Audio2Face: Generating Speech/Face Animation from Single Audio with Attention-Based Bidirectional 
+LSTM Networks"。在这篇论文中，介绍了一种从纯音频输入到语音/面部动画的深度学习方法。深层框架是基于双向长短时记忆递归神经网络，结合注意机制。
+评价结果表明，本文的方法在学习说话人的情感状态和面部运动方面具有有效性和泛化能力。
+总结来说就是通过人的语音情感变化来刻画人的面部表情，是基于双向长短时记忆递归神经网络，结合注意力机制实现的。
