@@ -1,0 +1,3 @@
+今日汇报：
+今天看了找了一篇论文"Communication-Efﬁcient Learning of DeepNetworks from Decentralized Data"，这篇论文是在梯度上进行加权平均的，计算和通信开销
+应该很大。
