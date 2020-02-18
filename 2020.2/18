@@ -1,0 +1,10 @@
+今日汇报：
+今天主要看了论文"Inproved Semantic Representations From Tree-Structured Long Short-Term Memory Networks"(2015 ACL)
+1.这篇论文主要提出了一种树结构LSTM(Tree-LSTM),而一般论文提到的基本LSTM是线性结构的。和线性LSTM单元一样，Tree-LSTM单元(由j
+标识)都包含遗忘门f_j，输入门i_j，输出门o_j，记忆单元c_j和隐藏单元h_j。Tree-LSTM与线性LSTM不同之处在于门向量和记忆单元c_j
+依赖多个子单元，而不是单个。
+2.本文提出的Tree-LSTM有两种：（1）Child-Sum Tree-LSTMs,所有的子单元共享参数矩阵；（2）N-ary Tree-LSTMs，所有的子单元具有
+独立的参数矩阵，与（1）更加细粒度，所以实验效果更好。
+3.在两个任务的baseline上，Tree-LSTMs都要优于现有的系统：预测两个句子的语义相关性和情感分类。
+总结：这篇论文主要的贡献在于将普通的线性LSTM改进为树结构LSTM，将SLTM单元的单依赖改为了多依赖，可以说线性LSTM是树结构LSTM的
+一种特例，Tree-LSTM具有普遍性。
