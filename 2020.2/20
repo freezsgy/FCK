@@ -1,0 +1,4 @@
+今日汇报：
+今天找到了一篇关于Tree-LSTM的论文"Learning to Compose Task-Specific Tree Structures"(2018 AAAI)。这篇论文提出了一个改进模型Gumbel Tree-LSTM。
+针对特定的文本任务，该模型不同于之前的Tree-LSTM，需要通过实验不断改进树结构以达到比较好的效果。Gumbel Tree-LSTM能够确定最优的树结构LSTM，。
+这种改进模型加快了收敛速度，并通过实验得到验证。
