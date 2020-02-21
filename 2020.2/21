@@ -1,0 +1,3 @@
+今日汇报：
+今天继续看昨天的论文"Learning to Compose Task-Specific Tree Structures"(2018 AAAI)，找了代码https://github.com/jihunchoi/unsupervised-treelstm
+测试了一下可以运行。参考代码，理解论文里面的算法细节。
