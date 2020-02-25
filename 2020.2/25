@@ -3,4 +3,4 @@
 "Neural machine translation with gumbel-greedy decoding." Thirty-Second AAAI Conference on Artificial Intelligence. 2018.）
 ST Gumbel-Softmax estimator将离散采样操作在后向遍历中松弛为连续的，因此Gumbel Tree-LSTM,模型可以通过标准的反向传播进行训练。
 当模型需要直接利用离散值时，ST Gumbel-Softmax estimator是有用的，例如，在模型根据从分类分布抽取的样本改变其计算路径的情况下。
-这一部分还没都看明白，明天继续。
+这一部分是模型实现的关键，还没都看明白，明天继续。
