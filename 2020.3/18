@@ -1,0 +1,16 @@
+今日汇报：
+他最近的发表的论文"Towards User-Level Privacy Attack Against Federated Learning"(JSAC 2010)没有搜到。
+今天找了之前宋梦凯的论文，有四篇，其中二作两篇，三作两篇。
+(1)Wang Z, Song M, Zhang Z, et al. Beyond inferring class representatives: User-level privacy leakage from federated learning[C]//IEEE INFOCOM 2019-IEEE Conference on Computer Communications. IEEE, 2019: 2512-2520.
+(2)Wang Z, Song M, Zheng S, et al. Invisible Adversarial Attack against Deep Neural Networks: An Adaptive Penalization Approach[J]. IEEE Transactions on Dependable and Secure Computing, 2019.
+(3)Hao S, Zhang H, Song M. A stable and energy-efficient routing algorithm based on learning automata theory for MANET[J]. Journal of Communications and Information Networks, 2018, 3(2): 52-66.
+(4)Wang Z, Zheng S, Song M, et al. advPattern: Physical-World Attacks on Deep Person Re-Identification via Adversarially Transformable Patterns[C]//Proceedings of the IEEE International Conference on Computer Vision. 2019: 8341-8350.
+与最近论文相关的是(1)"Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning"(INFOCOM 2019),其他三篇
+没有关联。
+
+"Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning"这篇论文研究了联合学习的隐私风险问题，将联合学习
+视为一种以分散方式工作的隐私保护学习框架。针对联合学习，我们提出了一种通用的、实用的重构攻击mGAN-AI（多任务生成对抗网络-AI），该攻击使恶意服务器不仅能够重构实际的训练
+样本，而且能够针对特定的客户端，从而破坏客户端的隐私。该攻击不影响标准的训练过程，与现有的攻击机制相比具有明显的优势。在两个基准数据集上的大量
+实验结果表明，mGAN-AI能够重建与受害者训练样本相似的样本，性能优于最先进的攻击算法。
+
+继续改论文。
