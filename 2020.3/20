@@ -1,0 +1,4 @@
+今日汇报：
+今天看了前天找的论文"Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning"，这篇论文假设了一个恶意
+的服务器，通过作者提出的多任务生成对抗网络mGAN暗中推测出联邦学习中特定客户端的用户标识、身份和输入样本。不被他人知道，不影响共享模型的训练过程。
+而之前的攻击模型在攻击过程中要么会影响共享模型的训练过程，要么会被其他人知道。具体的方法实现流程还没有看完。
