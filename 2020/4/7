@@ -1,0 +1,5 @@
+今日汇报：
+今天主要看了"Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning"(ccs 17)。这篇文章主要讲了恶意客户端基于GAN攻击
+其他客户端，生成与其他客户端训练数据集具有相同分布的数据集，破坏协同训练的过程，使其他客户端泄露更多的敏感信息。没有特定的攻击目标客户端，而且会被
+服务端察觉。而"Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning"这篇论文是基于服务端实现的，
+利用客户端的多个属性训练多任务GAN，区分客户端，进而攻击特定的客户端。我想是不是可以设计既可以抵抗客户端又可以抵抗服务端攻击的方法。
