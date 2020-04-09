@@ -1,0 +1,5 @@
+今日汇报：
+今天看了"Local Model Poisoning Attacks to Byzantine-Robust Federated Learning"(the 29th Usenix Security Symposium, 2020)。这篇论文主要讲述
+针对目前最新的Byzantine-Robust Federated Learning模型进行客户端模型投毒攻击，不同于对数据的投毒攻击，本文通过对客户端进行模型投毒攻击，即修改客户端模型参数，上传到
+服务端，进而影响服务端全局模型参数。本文通过最优化函数，进行客户端模型参数修改，假设全局模型参数变化方向是->，则针对客户端模型的最优化投毒攻击使得
+全局模型参数变化方向为<-。实际实现是一个次优，近似最优。
