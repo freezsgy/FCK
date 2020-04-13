@@ -1,0 +1,6 @@
+今日汇报：
+今天看了"MemGuard: Defending against Black-Box Membership Inference Attacks via Adversarial Examples"(CCS 2019)
+这篇文章提出了防御黑盒成员推理攻击MemGuard，MemGuard是第一个对目标分类器预测的置信分数向量具有正式的效用-损失保证的防御。
+MemGuard分为两个阶段。在第一阶段，MemGuard利用一种新的算法，找到一个精心制作的噪音向量，把一个置信分数向量变成一个对抗样本。
+该算法考虑了噪声矢量中唯一的效用-损失约束。在第二阶段，MemGuard将噪声向量以一定的概率加入到置信分数向量中，得到一个解析解。
+实证评估结果表明，MemGuard能有效防御黑盒成员推理攻击，并优于现有防御。
