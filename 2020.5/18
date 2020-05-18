@@ -1,2 +1,12 @@
 今日汇报：
-今天主要思考了我的之前的想法
+今天继续思考了我的之前的想法：
+设置成两个server，假设这两个server不互相勾结，client的update可以随机分成两部分，分别发送到两个server，各自进行模型部分更新，
+然后再不断迭代。这篇论文是根据client的完整update进行特定client的隐私数据恢复，如果恶意的server只有client的部分update，那么单个server就
+不可以恢复特定client的隐私数据。现在我们假设两个server是不会勾结的，但是如果它们勾结，如何设计协议确保它们无法恢复完整client的update？这个
+目前还没有想好。
+
+我觉得这个想法还是可行的，保护了服务端/客户端的参数隐私，而且恶意的客户端/服务端不能通过完整的参数恢复受害者客户端的隐私数据（只要它们之间不互相
+勾结）。
+
+对于论文的"class representatives of the global data"的生成没有弄明白。找了文献[4]"Deep models under the gan:
+information leakage from collaborative deep learning",准备明天看一下。
