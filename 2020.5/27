@@ -1,0 +1,3 @@
+今日汇报：
+今天找了之前论文的一篇参考文献"Privacy-Preserving Deep Learning: Revisited and Enhanced"（ATIS 2017），主要讲的是通过加法同态加密设计了在联邦学习中保护梯度
+数据隐私的方案。
