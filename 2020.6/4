@@ -1,0 +1,3 @@
+今日汇报：
+今天主要还是在修改代码，看了"Exploiting Unintended Feature Leakage in Collaborative Learning"(SP2019)，这篇论文假设攻击者是一个客户端，在每一轮模型
+更新中，通过权值参数的更新，获取其他客户端的平均梯度更新，基于梯度推断出除攻击者以外的其他客户端的训练数据特征信息。
