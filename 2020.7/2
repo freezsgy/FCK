@@ -1,0 +1,3 @@
+今日汇报：
+今天找到了一篇论文"Practical Secure Aggregation for Privacy-Preserving Machine Learning"(2017 ccs)。讲的也是联邦学习中的客户端参数更新的保护，客户端之间使用秘密分享混淆参数。
+跟我的想法相似，明天继续看方法部分。
